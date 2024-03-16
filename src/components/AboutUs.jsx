@@ -67,8 +67,8 @@ const AboutUs = () => {
           ))}
         </div>
       </div>
-      <div className="ellipes-aboutsection"></div>
-      <h2 className=" setheading-section z-n1  fw-bold fs-6xl text-white text-opacit-6 lh-224">
+      <div className="ellipes-aboutsection d-none d-sm-block "></div>
+      <h2 className=" setheading-section z-n1   fw-bold fs-6xl text-white text-opacit-6 lh-sm-224 lh-52 ">
         About Us
       </h2>
     </section>

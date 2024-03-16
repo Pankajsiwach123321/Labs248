@@ -133,10 +133,6 @@
     line-height: 52px;
 }
 
-.lh-224 {
-    line-height: 224px;
-}
-
 .py-19 {
     padding: 19px 0;
 }
@@ -369,7 +365,7 @@ h6 {
 
 .setheading-section-alternate {
     position: absolute;
-    top: -44px;
+    top: 24px;
     animation: movetitlealternate 7s linear infinite alternate;
 }
 
@@ -1003,6 +999,10 @@ input[type=number] {
         left: 50%;
     }
 
+    .lh-sm-224 {
+        line-height: 224px;
+    }
+
     .imageroadmap {
         left: 50%;
         width: 104px !important;
@@ -1018,6 +1018,10 @@ input[type=number] {
 
     .lh-sm-67 {
         line-height: 67px;
+    }
+
+    .setheading-section-alternate {
+        top: -44px;
     }
 
     .roadmap-card {
@@ -1056,6 +1060,7 @@ input[type=number] {
     :root {
         --fs-6xl: 187px;
     }
+
     .bg-from,
     .bg-next,
     .bg-level {

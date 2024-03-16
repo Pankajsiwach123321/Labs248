@@ -142,7 +142,7 @@ const OurTeam = () => {
           ))}
         </div>
       </div>
-      <h2 className=" setheading-section-alternate z-n1  fw-bold fs-6xl text-white text-opacit-6 lh-224">
+      <h2 className=" setheading-section-alternate z-n1  fw-bold fs-6xl text-white text-opacit-6 lh-sm-224 lh-52 ">
         Our Team
       </h2>
       <div className="ellipes1-ourteam"></div>

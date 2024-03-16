@@ -8,10 +8,10 @@ const RoadMap = () => {
   return (
     <section
       id="Roadmap"
-      className=" bg-black pt-5 position-relative z-1 overflow-xclip"
+      className=" bg-black pt-sm-5 position-relative z-1 overflow-xclip"
     >
       <div className=" bg-roadmap">
-        <div className=" container pt-5 mt-5 ">
+        <div className=" container pt-sm-5 mt-sm-5 ">
           <p className=" text-center">
             <span
               data-aos="fade-down"
@@ -26,7 +26,7 @@ const RoadMap = () => {
           >
             Milestones and markers
           </h2>
-          <span className="py-5 d-sm-block"></span>
+          <span className="py-5 d-sm-block "></span>
           <div className="row lineorapmap position-relative z-1 justify-content-between">
             <img src={roadmapimg} alt="roadmapimg" className="imageroadmap" />
             <div className="col-sm-5 ps-5 ps-sm-0 "></div>
@@ -123,7 +123,7 @@ const RoadMap = () => {
           </div>
         </div>
       </div>
-      <h2 className=" setheading-section2 z-n1  fw-bold fs-6xl text-white text-opacit-6 lh-224">
+      <h2 className=" setheading-section2 z-n1  fw-bold fs-6xl text-white text-opacit-6 lh-sm-224 lh-52 l">
         Roadmap
       </h2>
       <div className="ellipes-roadmap"></div>

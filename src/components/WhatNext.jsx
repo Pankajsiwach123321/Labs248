@@ -2,7 +2,7 @@ import React from "react";
 
 const WhatNext = () => {
   return (
-    <section className="bg-black py-5 -mt-1">
+    <section className="bg-black py-sm-5 -mt-1">
       <div className="bg-next d-flex">
         <div className="container d-flex flex-grow-1 align-items-center flex-column justify-content-center text-center">
           <h2
