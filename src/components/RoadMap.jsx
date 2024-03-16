@@ -26,7 +26,7 @@ const RoadMap = () => {
           >
             Milestones and markers
           </h2>
-          <span className="py-5 d-block"></span>
+          <span className="py-5 d-sm-block"></span>
           <div className="row lineorapmap position-relative z-1 justify-content-between">
             <img src={roadmapimg} alt="roadmapimg" className="imageroadmap" />
             <div className="col-sm-5 ps-5 ps-sm-0 "></div>

@@ -16,7 +16,7 @@ const Desktop = () => {
             src={citydark}
             height={458}
             alt="citydark"
-            className="w-100 border-30"
+            className="w-100 obj-cover border-30"
           />
           <a href="#" className="play">
             <img src={play} alt={play} className="w-100" />

@@ -9,7 +9,7 @@ const CollectableCard = () => {
           alt="collectable"
           data-aos="fade-down"
           height={422}
-          className="w-100 border-30"
+          className="w-100 obj-cover border-30"
         />
         <div className="row mt-md-4 mt-4">
           <div
