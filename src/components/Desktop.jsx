@@ -19,7 +19,7 @@ const Desktop = () => {
             className="w-100 obj-cover border-30"
           />
           <a href="#" className="play">
-            <img src={play} alt={play} className="w-100" />
+            <img src={play} alt={play} className="w-100 hoverplay" />
           </a>
         </div>
         <p

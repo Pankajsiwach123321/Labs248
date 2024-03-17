@@ -6,7 +6,12 @@ const Preloader = () => {
       <div className=" p-5 outer-border">
         <div className=" dot-bounce"></div>
         <div className=" horizontel-line"></div>
-        <h6 className=" text-center fs-2xl mb-0 py-3">248 LABS</h6>
+        <h6
+          data-text="248 LABS"
+          className="text-loderanimation text-center fs-2xl mb-0 py-3"
+        >
+          248 LABS
+        </h6>
       </div>
     </div>
   );
