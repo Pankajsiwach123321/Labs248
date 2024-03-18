@@ -794,31 +794,26 @@ body::-webkit-scrollbar {
 }
 
 .ellipes1-footer {
-    max-width: 496px;
-    max-height: 206px;
-    opacity: 75%;
-    width: 100%;
-    height: 100%;
     position: absolute;
+    width: 260px;
+    height: 129px;
+    bottom: -37%;
+    left: -24px;
     z-index: -1;
-    left: -15%;
-    bottom: 0;
+    filter: blur(150px);
     background: #AD1AAF;
-    filter: blur(234px);
 }
 
 .ellipes2-footer {
-    max-width: 818px;
-    max-height: 88px;
-    opacity: 75%;
-    width: 100%;
-    height: 100%;
     position: absolute;
-    z-index: -1;
+    bottom: -32%;
     right: -5%;
-    bottom: 0;
-    background: linear-gradient(151.6deg, #D4145A 1.85%, #FBB03B 98.12%);
-    filter: blur(198px);
+    width: 550px;
+    height: 83px;
+    opacity: 0.75;
+    filter: blur(122px);
+    z-index: -1;
+    background: linear-gradient(151.6deg, rgb(212, 20, 90) 1.85%, rgb(251, 176, 59) 98.12%);
 }
 
 .scale {

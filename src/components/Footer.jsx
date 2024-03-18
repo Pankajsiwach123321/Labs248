@@ -6,7 +6,7 @@ const Footer = () => {
   const date = new Date().getFullYear();
 
   return (
-    <footer className=" bg-black position-relative z-1 overflow- hidden -mt-1 overflow-xclip">
+    <footer className=" bg-black position-relative z-1 overflow- hidden -mt-1 overflow-hidden">
       <div className=" container text-center mb-3 ">
         <a href="#">
           <img src={logo} alt="logo" width={287} />
