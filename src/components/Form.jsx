@@ -66,8 +66,8 @@ const Form = () => {
     document.body.classList.remove("overflow-hidden");
   }
   return (
-    <section className="  bg-black py-5 -mt-1 position-relative z-1 ">
-      <div className={` ${Pop && "blur-20"} bg-from d-flex`}>
+    <section className="  bg-black py-5 -mt-1 position-relative z-3 ">
+      <div className=" bg-from d-flex">
         <div className="container d-flex justify-content-center  align-items-center">
           <div className="row flex-grow-1">
             <div className="col-md-8">
@@ -201,21 +201,27 @@ const Form = () => {
           </div>
         </div>
       </div>
-      <div
-        className={`${Pop ? "scale" : ""} sumbmission-succefull text-center`}
-      >
-        <p className=" text-success fs-3xl">SUBCRIBED</p>
-        <div className="button-border   d-inline-block">
-          <button
-            onClick={() => {
-              setPop(false);
-            }}
-            className="button-primery2   px-4 py-1    fs-lg fw-bold text-c-white lh-27"
+      {Pop && (
+        <div className=" position-fixed w-100 h-100 top-0 start-0 d-flex justify-content-center align-items-center blur-20 submissonlayer z-11">
+          <div
+            className={`${
+              Pop && " submission-animation"
+            } sumbmission-succefull text-center`}
           >
-            X
-          </button>
+            <p className=" text-white fs-3xl">THANKS FOR SUBCRIBED 👍</p>
+            <div className="button-border   d-inline-block">
+              <button
+                onClick={() => {
+                  setPop(false);
+                }}
+                className="button-primery2   px-4 py-1    fs-lg fw-bold text-c-white lh-27"
+              >
+                X
+              </button>
+            </div>
+          </div>
         </div>
-      </div>
+      )}
     </section>
   );
 };

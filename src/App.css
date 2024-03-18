@@ -826,17 +826,17 @@ body::-webkit-scrollbar {
 }
 
 .blur-20 {
-    filter: blur(20px);
+    backdrop-filter: blur(20px);
+}
+
+.z-11 {
+    z-index: 11;
 }
 
 .sumbmission-succefull {
-    padding: 50px;
+    padding: 100px;
     transition: all .1s linear;
-    position: absolute;
     border-radius: 30px;
-    top: 50%;
-    left: 50%;
-    transform: translate(-25%, -50%) scale(0);
     background-color: #0a010a47;
     backdrop-filter: blur(12px);
     z-index: 3;
@@ -856,7 +856,29 @@ input[type=checkbox] {
     bottom: 1%;
     right: 1%;
     cursor: pointer;
-    z-index: 10;
+    z-index: 2;
+}
+
+.submissonlayer {
+    background-color: #0a010a47;
+}
+
+.submission-animation {
+    animation: notification .1s 3 linear alternate ;
+}
+
+@keyframes notification {
+    0% {
+        transform: rotate(0deg);
+    }
+
+    50% {
+        transform: rotate(-5deg);
+    }
+
+    100% {
+        transform: rotate(5deg);
+    }
 }
 
 input[type=number]::-webkit-inner-spin-button,
