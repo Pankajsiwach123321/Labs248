@@ -52,16 +52,14 @@ const AboutUs = () => {
               className="col-lg-4 col-md-6 mt-lg-5 pt-md-5 pt-4  "
               key={i}
             >
-              <div className="gradiant-border-aboutus mt-4 overflow-hidden ">
-                <div className="card-aboutus position-relative z-1 ">
-                  <h3 className="text-white  fs-3xl lh-38 fw-bold mb-3">
-                    {obj.title}
-                  </h3>
-                  <p className=" max-w-311  fw-normal mb-0 fs-md lh-24  text-white text-opacit-70">
-                    {obj.para}
-                  </p>
-                  <div className="ellipes-card-aboutus"></div>
-                </div>
+              <div className="card-aboutus h-100 gradient-border-maskaboutus position-relative z-1 ">
+                <h3 className="text-white  fs-3xl lh-38 fw-bold mb-3">
+                  {obj.title}
+                </h3>
+                <p className=" max-w-311  fw-normal mb-0 fs-md lh-24  text-white text-opacit-70">
+                  {obj.para}
+                </p>
+                <div className="ellipes-card-aboutus"></div>
               </div>
             </div>
           ))}
