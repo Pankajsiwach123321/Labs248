@@ -8,7 +8,9 @@ const Footer = () => {
   return (
     <footer className=" bg-black position-relative z-1 overflow- hidden -mt-1 overflow-xclip">
       <div className=" container text-center mb-3 ">
-        <img src={logo} alt="logo" width={287} />
+        <a href="#">
+          <img src={logo} alt="logo" width={287} />
+        </a>
         <div className=" d-flex align-items-center gap-4 justify-content-center mt-3  pt-1 ">
           <a
             href="#Home"
@@ -36,16 +38,32 @@ const Footer = () => {
           </a>
         </div>
         <div className=" d-flex gap-3 align-items-center justify-content-center pt-4">
-          <a href="https://twitter.com/account/access" target="_blanck" className="svg-up">
+          <span
+            href="https://twitter.com/account/access"
+            target="_blanck"
+            className="svg-up"
+          >
             <Twitter />
-          </a>
-          <a href="https://www.linkedin.com/" target="_blanck" className="svg-up">
+          </span>
+          <a
+            href="https://www.linkedin.com/"
+            target="_blanck"
+            className="svg-up"
+          >
             <Facebook />
           </a>
-          <a href="https://www.linkedin.com/" target="_blanck" className="svg-up">
+          <a
+            href="https://www.linkedin.com/"
+            target="_blanck"
+            className="svg-up"
+          >
             <Instagram />
           </a>
-          <a href="https://www.linkedin.com/" target="_blanck" className="svg-up">
+          <a
+            href="https://www.linkedin.com/"
+            target="_blanck"
+            className="svg-up"
+          >
             <Linkin />
           </a>
         </div>
