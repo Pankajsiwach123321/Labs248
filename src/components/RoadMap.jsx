@@ -22,7 +22,7 @@ const RoadMap = () => {
           </p>
           <h2
             data-aos="fade-up"
-            className=" text-center pb-5  fs-4xl lh-sm-62 lh-40 mb-0 pt-3 text-white"
+            className=" text-center pb-5 fw-bold fs-4xl lh-sm-62 lh-40 mb-0 pt-3 text-white"
           >
             Milestones and markers
           </h2>

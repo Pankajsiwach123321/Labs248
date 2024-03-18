@@ -7,7 +7,7 @@ const WhatNext = () => {
         <div className="container d-flex flex-grow-1 align-items-center flex-column justify-content-center text-center">
           <h2
             data-aos="fade-down"
-            className=" fw-semibold mb-3 fs-4xl lh-24  text-white "
+            className=" fw-bold mb-3 fs-4xl lh-24  text-white "
           >
             What’s Next
           </h2>
@@ -27,7 +27,7 @@ const WhatNext = () => {
           </p>
           <div data-aos="fade-up" className="button-border d-inline-block ">
             <button className="button-primery   fs-lg fw-bold text-c-white lh-27">
-              Contact Us
+              Try to keep up
             </button>
           </div>
         </div>

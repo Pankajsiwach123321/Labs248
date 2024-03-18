@@ -25,7 +25,7 @@ const CollectableCard = () => {
               </a>
               <div className="button-border  d-block max-w-237 mt-4  ">
                 <button className="button-primery    w-100 fs-lg fw-bold text-c-white lh-27">
-                  Contact Us
+                  Make Your Move
                 </button>
               </div>
             </div>

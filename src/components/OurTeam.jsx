@@ -105,7 +105,7 @@ const OurTeam = () => {
         </p>
         <h2
           data-aos="fade-up"
-          className=" text-center  fs-4xl lh-sm-62 lh-40 mb-0 pt-3 text-white"
+          className=" text-center fw-bold  fs-4xl lh-sm-62 lh-40 mb-0 pt-3 text-white"
         >
           Behind our expertise
         </h2>

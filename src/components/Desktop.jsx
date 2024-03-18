@@ -7,7 +7,7 @@ const Desktop = () => {
       <div className="container pt-md-5 mt-sm-5 pb-5">
         <h2
           data-aos="fade-down"
-          className="  fw-bold mb-4 text-4xl lh-sm-62 lh-40 text-center text-white"
+          className="  fw-bold mb-4 fs-4xl lh-sm-62 lh-40 text-center text-white"
         >
           A rich, inhabited, and licensable world.
         </h2>
