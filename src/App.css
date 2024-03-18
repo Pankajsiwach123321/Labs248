@@ -63,11 +63,11 @@
 }
 
 .text-opacit-6 {
-    opacity: var(--text-op-sm);
+    opacity: var(--text-op-sm) !important;
 }
 
 .text-opacit-70 {
-    opacity: var(--text-op-md);
+    opacity: var(--text-op-md) !important;
 }
 
 .text-c-white {
@@ -864,7 +864,7 @@ input[type=checkbox] {
 }
 
 .submission-animation {
-    animation: notification .1s 3 linear alternate ;
+    animation: notification .1s 3 linear alternate;
 }
 
 @keyframes notification {

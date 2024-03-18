@@ -28,7 +28,7 @@ const Desktop = () => {
         >
           Illustrated with original artwork and a cinematic score, destined not
           only for mobile and desktop gaming but{" "}
-          <span className=" d-block">
+          <span className=" d-lg-block">
             also for film and television, events, merchandising, and
             partnerships.
           </span>
