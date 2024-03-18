@@ -23,6 +23,7 @@
     --text-op-md: 70%;
     --text-c-white: #fff;
     --text-c-prime: #F7E7F7;
+    --text-c-light: #B2B2B2;
 }
 
 .fs-md {
@@ -75,6 +76,9 @@
 
 .text-c-prime {
     color: var(--text-c-prime);
+}
+.text-c-light {
+    color: var(--text-c-light);
 }
 
 .-mt-1 {

@@ -31,24 +31,33 @@ const CollectableCard = () => {
             </div>
           </div>
           <div data-aos="zoom-in" className="col-lg-9 pt-4 pt-lg-0 ">
-            <p className=" max-w-793   ms-auto text-white paragraph text-opacit-70  fw-normal fs-md lh-24">
+            <p className=" max-w-793   ms-auto  paragraph text-c-light  fw-normal fs-md lh-24">
               Unveiled is a unique
-              <span className=" fw-semibold"> collectible card game</span> in
-              which you gain fervour for your ventures, spending it on
+              <span className=" fw-semibold text-white">
+                {" "}
+                collectible card game
+              </span>{" "}
+              in which you gain fervour for your ventures, spending it on
               mercenaries, spies, automata, and influence.
             </p>
-            <p className=" max-w-793  ms-auto text-white paragraph text-opacit-70  fw-normal fs-md lh-24">
+            <p className=" max-w-793  ms-auto text-c-light paragraph   fw-normal fs-md lh-24">
               You play
-              <span className=" fw-semibold"> a rogue merchant trader</span>
+              <span className=" fw-semibold text-white">
+                {" "}
+                a rogue merchant trader
+              </span>
               trader allied to a noble house, alongside your
-              <span className=" fw-semibold">cryptid-humanoid companions</span>
+              <span className=" fw-semibold text-white">
+                {" "}
+                cryptid-humanoid companions{" "}
+              </span>
               in a game of ambition and alliance, deception and miracles,
               manipulation and annihilation. Bells chime in the harbour, and
               markets are opening. Guards have swept the streets of the more
               obvious dangers.
             </p>
 
-            <p className=" max-w-793  ms-auto text-white paragraph text-opacit-70   fw-semibold fs-md lh-24">
+            <p className=" max-w-793  ms-auto  text-white   fw-semibold fs-md lh-24">
               What’s your next move?
             </p>
           </div>
