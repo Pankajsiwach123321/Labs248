@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import logo from "../assets/images/webp/logo.webp";
+import { Cross } from "./Icon";
 const NavBar = () => {
   const [show, setshow] = useState(false);
   function showme() {
@@ -66,11 +67,8 @@ const NavBar = () => {
               </div>
               <button
                 onClick={showme}
-                className={`${
-                  show ? "rotate-0" : ""
-                } d-md-none  navbutton position-absolute  z-3`}
-              >
-                {show ? "X" : "|||"}
+                className=" d-md-none  navbutton position-absolute  z-3" >
+                {show ? <Cross /> : "|||"}
               </button>
             </ul>
           </div>
