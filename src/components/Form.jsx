@@ -202,7 +202,7 @@ const Form = () => {
         </div>
       </div>
       {Pop && (
-        <div className=" position-fixed w-100 h-100 top-0 start-0 d-flex justify-content-center align-items-center blur-20 submissonlayer z-11">
+        <div className=" p-12 position-fixed w-100 h-100 top-0 start-0 d-flex justify-content-center align-items-center blur-20 submissonlayer z-11">
           <div
             className={`${
               Pop && " submission-animation"

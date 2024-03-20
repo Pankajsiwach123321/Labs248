@@ -142,6 +142,10 @@
     padding: 19px 0;
 }
 
+.p-12 {
+    padding: 12px;
+}
+
 .bg-header {
     background-image: url(./assets/images/webp/HeroBg.webp);
     background-size: cover;
@@ -195,7 +199,6 @@
 
 .button-primery:hover::after {
     opacity: 0;
-
 }
 
 .button-primery2 {
@@ -273,17 +276,6 @@
     scale: .8;
 }
 
-@keyframes moveline {
-    0% {
-        width: 0;
-    }
-
-    100% {
-        width: 100%;
-    }
-
-}
-
 .z-19 {
     z-index: 19;
 }
@@ -310,28 +302,6 @@
     background-image: linear-gradient(#000, #000), linear-gradient(151.6deg, #D4145A 1.85%, #FBB03B 98.12%);
     background-origin: border-box;
     background-clip: padding-box, border-box;
-}
-
-@keyframes movedot {
-    0% {
-        transform: translate(0px, 0px) rotate(0);
-    }
-
-    25% {
-        transform: translate(20px, -20px) rotate(360deg);
-    }
-
-    50% {
-        transform: translate(40px, 0) rotate(0);
-    }
-
-    75% {
-        transform: translate(60px, -20px) rotate(360deg);
-    }
-
-    100% {
-        transform: translate(80px, 0) rotate(360deg);
-    }
 }
 
 .swipe img:hover {
@@ -368,7 +338,6 @@
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
-
 
 .button-rare::after {
     content: '';
@@ -436,7 +405,6 @@
 
 .obj-cover {
     object-fit: cover;
-
 }
 
 .overflow-xclip {
@@ -455,36 +423,6 @@
     opacity: 0.75;
     filter: blur(243px);
     background: #AD1AAF;
-}
-
-@keyframes movetitle2 {
-    from {
-        right: -147px;
-    }
-
-    to {
-        right: 0;
-    }
-}
-
-@keyframes movetitle {
-    from {
-        right: -55px;
-    }
-
-    to {
-        right: 0;
-    }
-}
-
-@keyframes movetitlealternate {
-    from {
-        left: -125px;
-    }
-
-    to {
-        left: 0;
-    }
 }
 
 .border-30 {
@@ -699,6 +637,7 @@ body::-webkit-scrollbar {
     border-radius: 30px;
     position: relative;
     z-index: 1;
+    min-height: 359px;
     overflow: hidden;
 }
 
@@ -788,7 +727,6 @@ body::-webkit-scrollbar {
     border-radius: 8px;
 }
 
-
 ::placeholder {
     color: var(--text-c-white);
     opacity: var(--text-op-md);
@@ -838,7 +776,7 @@ body::-webkit-scrollbar {
 }
 
 .sumbmission-succefull {
-    padding: 100px;
+    padding: 30px;
     transition: all .1s linear;
     border-radius: 30px;
     background-color: #0a010a47;
@@ -869,20 +807,6 @@ input[type=checkbox] {
 
 .submission-animation {
     animation: notification .1s 3 linear alternate;
-}
-
-@keyframes notification {
-    0% {
-        transform: rotate(0deg);
-    }
-
-    50% {
-        transform: rotate(-5deg);
-    }
-
-    100% {
-        transform: rotate(5deg);
-    }
 }
 
 input[type=number]::-webkit-inner-spin-button,
@@ -1007,7 +931,6 @@ input[type=number] {
     left: -10%;
 }
 
-
 .ellepise-desktop {
     width: 362px;
     height: 366px;
@@ -1017,6 +940,82 @@ input[type=number] {
     top: 30%;
     filter: blur(106px);
     z-index: -1;
+}
+
+@keyframes moveline {
+    0% {
+        width: 0;
+    }
+
+    100% {
+        width: 100%;
+    }
+}
+
+@keyframes movedot {
+    0% {
+        transform: translate(0px, 0px) rotate(0);
+    }
+
+    25% {
+        transform: translate(20px, -20px) rotate(360deg);
+    }
+
+    50% {
+        transform: translate(40px, 0) rotate(0);
+    }
+
+    75% {
+        transform: translate(60px, -20px) rotate(360deg);
+    }
+
+    100% {
+        transform: translate(80px, 0) rotate(360deg);
+    }
+}
+
+@keyframes movetitle2 {
+    from {
+        right: -147px;
+    }
+
+    to {
+        right: 0;
+    }
+}
+
+@keyframes movetitle {
+    from {
+        right: -55px;
+    }
+
+    to {
+        right: 0;
+    }
+}
+
+@keyframes movetitlealternate {
+    from {
+        left: -125px;
+    }
+
+    to {
+        left: 0;
+    }
+}
+
+@keyframes notification {
+    0% {
+        transform: rotate(0deg);
+    }
+
+    50% {
+        transform: rotate(-5deg);
+    }
+
+    100% {
+        transform: rotate(5deg);
+    }
 }
 
 @media (max-width:768px) {
@@ -1057,6 +1056,10 @@ input[type=number] {
 }
 
 @media (min-width:576px) {
+    .sumbmission-succefull {
+        padding: 100px;
+    }
+
     .lineorapmap::after {
         left: 50%;
     }

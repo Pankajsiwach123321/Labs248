@@ -114,7 +114,7 @@ const OurTeam = () => {
             <div
               data-aos={obj.aos}
               key={i}
-              className="col-xl-6 col-12  pt-4 mt-1"
+              className="col-xl-6 col-12  pt-4 mt-1 h-auto"
             >
               <div className="our-team-card h-100">
                 <div className=" d-flex flex-column flex-md-row gap-2">
