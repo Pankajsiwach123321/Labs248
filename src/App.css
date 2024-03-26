@@ -352,9 +352,6 @@
     border-radius: 30px;
 }
 
-.button-rare:hover::after {
-    opacity: 0;
-}
 
 .setheading-section {
     position: absolute;
@@ -790,6 +787,9 @@ body::-webkit-scrollbar {
 
 input[type=checkbox] {
     accent-color: var(--text-c-white) !important;
+    width: 18px;
+    height: 18px;
+    margin: 3px;
 }
 
 .setbacktop {

@@ -38,22 +38,22 @@ const Footer = () => {
           </a>
         </div>
         <div className=" d-flex gap-3 align-items-center justify-content-center pt-4">
-          <span
+          <a
             href="https://twitter.com/account/access"
             target="_blanck"
             className="svg-up"
           >
             <Twitter />
-          </span>
+          </a>
           <a
-            href="https://www.linkedin.com/"
+            href="https://www.facebook.com/"
             target="_blanck"
             className="svg-up"
           >
             <Facebook />
           </a>
           <a
-            href="https://www.linkedin.com/"
+            href="https://www.instagram.com/"
             target="_blanck"
             className="svg-up"
           >

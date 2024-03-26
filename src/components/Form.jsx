@@ -149,7 +149,7 @@ const Form = () => {
                           name="email"
                           value={Fromdata.email}
                           placeholder="Park@458@Gmail.com"
-                          className=" input-layout text-white text-opacit-70   "
+                          className=" input-layout  text-white text-opacit-70   "
                         />
                         {Errordata.email && (
                           <p className="text-white pt-1">{Errordata.email}</p>
